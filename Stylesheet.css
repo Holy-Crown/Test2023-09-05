@@ -1,0 +1,78 @@
+/* set the background color of the body element to black */
+body {
+	background-color: black;
+}
+
+/* set the color of all text to white */
+body, h1, p, ul, li, label {
+	color: white;
+}
+
+/* set the background color of the header element to red */
+header {
+	background-color: red;
+}
+
+/* style the navigation links */
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+}
+
+/* style the main content sections */
+main {
+	margin: 20px;
+}
+
+section {
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: red;
+}
+
+section:last-child {
+	background-color: black;
+}
+
+/* style the contact form */
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input, form textarea {
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-radius: 3px;
+	border: none;
+	background-color: white;
+	color: black;
+}
+
+form input[type="submit"] {
+	background-color: red;
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: white;
+	color: red;
+}
