@@ -10,7 +10,7 @@ body, h1, p, ul, li, label {
 
 /* set the background color of the header element to red */
 header {
-	background-color: red;
+	background-color: blue;
 }
 
 /* style the navigation links */
@@ -31,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-	color: red;
+	color: blue;
 }
 
 /* style the main content sections */
@@ -42,7 +42,7 @@ main {
 section {
 	padding: 20px;
 	margin-bottom: 20px;
-	background-color: red;
+	background-color: blue;
 }
 
 section:last-child {
@@ -66,7 +66,7 @@ form input, form textarea {
 }
 
 form input[type="submit"] {
-	background-color: red;
+	background-color: blue;
 	color: white;
 	border-radius: 3px;
 	cursor: pointer;
@@ -74,5 +74,5 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
 	background-color: white;
-	color: red;
+	color: blue;
 }
